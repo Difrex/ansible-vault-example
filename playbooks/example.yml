@@ -1,0 +1,6 @@
+- hosts: [localhost]
+  gather_facts: no
+  tasks:
+    - name: Just echo the my encrypted variable
+      debug:
+        msg: "{{ my_pass }}"

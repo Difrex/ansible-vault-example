@@ -1,0 +1,7 @@
+* Ansible Vault example
+
+This is just a simple example of how to use an Ansible Vault.
+
+Secrets available in the ~inventory/group_vars/all/vault~. Look to the ~ansible.cfg~.
+
+Run ~ansible-playbook playbooks/example.yml~.
